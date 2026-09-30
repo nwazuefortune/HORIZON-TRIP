@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to right,wheat,rgb(146, 134, 62));
+    background-position: center;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.logo {
+    font-size: 30px;
+    color: darkgreen;
+    margin-left: 40px;
+}
+
+.nav-links{
+    display: flex;
+    gap: 35px;
+    list-style: none;
+    margin-right: 300px;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.contact-content{
+    display: flex;
+}
+
+.contact-form{
+    width: 50%;
+    padding: 40px;
+    margin-top: 5px;
+    margin-left: 40px;
+}
+
+.contact-form h1{
+    color: rgb(134, 108, 58);
+    font-size: 45px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.contact-form input{
+    width: 80%;
+    border: none;
+    background: wheat;
+    border-radius: 25px;
+    padding: 25px;
+    margin-bottom: 18px;
+    font-size: 16px;
+}
+
+.contact-form textarea{
+    width: 80%;
+    border: none;
+    background: wheat;
+    border-radius: 20px;
+    padding: 25px;
+    margin-bottom: 18px;
+    font-size: 16px;
+    height: 110px;
+}
+
+.contact-form button{
+    width: 80%;
+    padding: 16px;
+    border: none;
+    border-radius: 20px;
+    color: whitesmoke;
+    background-color: wheat;
+}
+
+.contact-content .contact-image img{
+    margin-top: 90px;
+    width: 450px;
+    border-radius: 20px;
+    margin-left: 100px;
+}

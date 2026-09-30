@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom,rgb(153, 135, 31),wheat,rgb(92, 79, 56));
+}
+
+.navbar{
+    width: 100%;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.logo {
+    font-size: 30px;
+    color: darkgreen;
+}
+
+.nav-links{
+    display: flex;
+    gap: 35px;
+    list-style: none;
+    margin-right: 200px;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+section h2{
+    margin-left: 1000px;
+    margin-top: 20px;
+    color: blueviolet;
+    margin-bottom: 20px;
+}
+
+section div img{
+    width: 700px;
+    height: 600px;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 20px;
+    display: flex;
+}
+
+.about-text{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.para{
+    width: 100%;
+    font-size: 30px;
+}
+
+
+
+
+@media only screen and (max-width:850px){
+    .navbar{
+        padding: 20px;
+    }
+
+    .nav-links{
+        display: none;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .about p{
+        width: 100%;
+        max-width: 100%;
+        font-size: 16px;
+        line-height: 1.6;
+        margin-bottom: 20px;
+        margin-left: 5px;
+    }
+
+    .about h2{
+        margin-left: 80px;
+        font-size: 40px;
+    }
+
+    .about img{
+        margin-bottom: 50px;
+        width: 380px;
+        margin-left: 5px;
+        height: 600px;
+
+    }
+
+    .about-text{
+        display: block;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

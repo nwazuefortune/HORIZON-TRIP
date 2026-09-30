@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: white;
+    color: darkblue;
+    background: linear-gradient(to right,wheat,rgb(161, 141, 102));
+}
+
+.navbar{
+    padding: 15px 20px;
+    border-bottom: 1px solid white;
+}
+
+.more{
+    display: flex;
+    gap: 150px;
+}
+
+.Flights{
+    background-color:  darkblue;
+    border-radius: 10px;
+    padding: 10px 10px;
+    align-items: center;
+}
+
+.view{
+    display: none;
+}
+
+.back{
+    display: flex;
+    gap: 100px;
+}
+
+.nav-links{
+    display: flex;
+    gap: 300px;
+    align-items: center;
+}
+
+.nav-links a{
+    text-decoration: none;
+}
+
+.nav-links li{
+    list-style-type: none;
+}
+
+.navbar{
+    animation-name: navbar;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+.para{
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 15px;
+    color: gold;
+    padding-top: 30px;
+}
+
+.bold{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.hero-section{
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    width: 95%;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 50px;
+    animation-name: hero-section;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+
+.Turkey img{
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.Turkey p{
+    margin-left: 100px;
+    line-height: 1.5;
+    font-size: 18px;
+    color: aqua;    
+}
+
+.Turkey button{
+    padding: 8px 8px;
+    margin-left: 100px;
+    border-radius: 10px;
+    background-color: brown;
+}
+
+.paris img{
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.paris p{
+    margin-left: 100px;
+    line-height: 1.5;
+    font-size: 18px;
+    color: green;    
+}
+
+.paris button{
+    padding: 8px 8px;
+    margin-left: 100px;
+    border-radius: 10px;
+    background-color: darkblue;
+}
+
+
+.united img{
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.united p{
+    margin-left: 100px;
+    line-height: 1.5;
+    font-size: 18px;
+    color: red;    
+}
+ 
+.united button{
+    padding: 8px 8px;
+    margin-left: 100px;
+    border-radius: 10px;
+    background-color: orangered;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+
+
+
+@media only screen and (max-width:850px){
+    .Flights{
+        padding: 10px 10px;
+    }
+
+    .back{
+        display: none;
+    }
+
+    .hero-section{
+        margin-left: 10px;
+        height: 1600px;
+    }
+
+    .grid-container{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+    }
+
+    .view{
+    background-color:  blue;
+    border-radius: 10px;
+    padding: 10px 10px;
+    align-items: center;
+    display: block;
+    }
+    
+}
